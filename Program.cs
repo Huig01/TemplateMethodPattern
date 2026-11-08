@@ -22,6 +22,8 @@ namespace TemplateMethodPattern
 
             Console.WriteLine("\n\n Now with hooked classes\n\n");
 
+            ChocolateMilkWithHook chocolateMilk = new ChocolateMilkWithHook();
+            chocolateMilk.PrepareRecipe();
             // You'll need this method for the second part of the Template Method Pattern
             Duck[] ducks =
             {
